@@ -4,10 +4,10 @@ const app = getApp()
 var Tealium = require('tealium');
 var tealiumCollect = require('tealium-collect');
 var config = {
-  "account": "education-mark",
-  "profile": "hk0319-002",
+  "account": "",
+  "profile": "",
   "environment" : "dev",
-  "datasource": "yfqmt2"
+  "datasource": ""
 };
 var tealium = Tealium(config);
 tealium.addModule(tealiumCollect);
